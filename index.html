@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Semanal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Relatório de Semana</h1>
+    <form action="" method="POST" id="mainForm">
+        <div class="input-container">
+            <div class="day-title">
+                <label for="segunda_disponibilidade">Segunda</label>
+                <select name="segunda_disponibilidade" id="segunda_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="time" name="segunda_horario" id="segunda_horario">
+                <input type="text" name="segunda_culto" id="segunda_culto" placeholder="nome do culto" >
+                <input type="text" name="segunda_pregador" id="segunda_pregador" placeholder="pregador" >
+                <input type="text" name="segunda_dirigente" id="segunda_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="terca_disponibilidade">Terça</label>
+                <select name="terca_disponibilidade" id="terca_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="terca_culto" id="terca_culto" placeholder="nome do culto" >
+                <input type="text" name="terca_pregador" id="terca_pregador" placeholder="pregador" >
+                <input type="text" name="terca_dirigente" id="terca_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="quarta_disponibilidade">Quarta</label>
+                <select name="quarta_disponibilidade" id="quarta_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="quarta_culto" id="quarta_culto" placeholder="nome do culto" >
+                <input type="text" name="quarta_pregador" id="quarta_pregador" placeholder="pregador" >
+                <input type="text" name="quarta_dirigente" id="quarta_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="quinta_disponibilidade">Quinta</label>
+                <select name="quinta_disponibilidade" id="quinta_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="quinta_culto" id="quinta_culto" placeholder="nome do culto" >
+                <input type="text" name="quinta_pregador" id="quinta_pregador" placeholder="pregador" >
+                <input type="text" name="quinta_dirigente" id="quinta_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="sexta_disponibilidade">Sexta</label>
+                <select name="sexta_disponibilidade" id="sexta_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="sexta_culto" id="sexta_culto" placeholder="nome do culto" >
+                <input type="text" name="sexta_pregador" id="sexta_pregador" placeholder="pregador" >
+                <input type="text" name="sexta_dirigente" id="sexta_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="sabado_disponibilidade">Sábado</label>
+                <select name="sabado_disponibilidade" id="sabado_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="sabado_culto" id="sabado_culto" placeholder="nome do culto" >
+                <input type="text" name="sabado_pregador" id="sabado_pregador" placeholder="pregador" >
+                <input type="text" name="sabado_dirigente" id="sabado_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="day-title">
+                <label for="domingo_disponibilidade">Domingo</label>
+                <select name="domingo_disponibilidade" id="domingo_disponibilidade">
+                    <option value="livre">Livre</option>
+                    <option value="culto">Culto</option>
+                </select>
+            </div>
+            <div class="group-inputs">
+                <input type="text" name="domingo_culto" id="domingo_culto" placeholder="nome do culto" >
+                <input type="text" name="domingo_pregador" id="domingo_pregador" placeholder="pregador" >
+                <input type="text" name="domingo_dirigente" id="domingo_dirigente" placeholder="dirigente" >
+            </div>
+        </div>
+        <input type="submit" value="Gerar Relatório" id="inputSubmit">
+    </form>
+    <script src="./js/script.js" type="text/javascript"></script>
+</body>
+</html>
